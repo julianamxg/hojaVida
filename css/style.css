@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+.hoja {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+   
+}
+
+img {
+    margin: auto;
+    width: 15rem;
+    border-radius: 50%;
+    display: flex;
+}
+
+.datos {
+    width: 28%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+    padding: 3rem;
+    
+}
+
+.datos h3{
+    font-weight: bolder;
+    color: rgb(15, 14, 104);
+}
+
+p,li {
+    color: rgb(63, 63, 63);
+    letter-spacing: 0.5x;
+    font-stretch:expanded;
+}
+
+.informacion {
+    height: 100%;
+    width: 60%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+}
+
+.informacion h3,h1{
+    font-weight: bolder;
+    color: rgb(15, 14, 104);
+}
+
+.informacion h1{
+    font-size: 3rem;
+}
+
+.titu{
+    background-color: rgba(126, 153, 235, 0.236);
+    padding: 1rem;
+    
+}
