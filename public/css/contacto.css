@@ -56,28 +56,59 @@ h2{
 
 
 .card{
-    display: inline-block;
+    display: flex;
     font-family: 'Lato', sans-serif;
-    background-color: #fff;
-    border-radius: 7px;
-    width: 29%;
-    margin: 1rem;
-    padding: 0.7rem;
-    -webkit-box-shadow: -3px -2px 12px -6px rgba(0,0,0,0.47);
-    -moz-box-shadow: -3px -2px 12px -6px rgba(0,0,0,0.47);
-    box-shadow: -3px -2px 12px -6px rgba(0,0,0,0.47);
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    
+   
 }
 
-.card p{
+label{
     font-family: 'Lato', sans-serif;
-    color: rgb(149 138 138);
-    letter-spacing: 0.5x;
-    font-stretch:expanded;
+    color: rgb(79, 73, 73);
 }
 
+input {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0.5rem;
+    height: 9px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px -2px 6px -6px rgb(0 0 0 / 47%);
+}
+
+textarea{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+   border: none;
+    box-shadow: 1px -2px 6px -6px rgb(0 0 0 / 47%);
+    background-color: #edfaed6b;
+}
+
+.boton{
+    margin-top: 1rem;
+    width: 30%;
+    padding: 1rem;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    background-color: #0f9821;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #27ba3b;
+}
 
 .titu{
     text-align: center;
-    color: #83fe93;
+    color: #0f9821;
     font-size: 2.5rem;
 }

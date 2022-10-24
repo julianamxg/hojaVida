@@ -34,7 +34,7 @@ box-shadow: -3px -2px 12px -3px rgba(0,0,0,0.47);
 }
 
 .menu a:hover{
-    background-color: rgba(150, 214, 155, 0.15);
+    background-color: rgba(150, 214, 155, 0.232);
     border-radius: 30px;
     font-weight:500;
 }
@@ -92,7 +92,7 @@ h2{
 .experiencia{
     text-align: center;
     padding: 0.1rem;
-    background: url(../img/fondo.jpg);
+    background: url(../img/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 7px;
@@ -140,7 +140,7 @@ h2{
     font-family: 'Lato', sans-serif;
     text-align: center;
     padding: 0.1rem;
-    background: url(../img/fondo.jpg);
+    background: url(../img/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 7px;
