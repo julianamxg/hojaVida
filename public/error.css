@@ -1,0 +1,50 @@
+body{
+   
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #27ba3b;
+    font-size: 6rem;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #27ba3b;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.boton {
+    /* margin-top: 1rem; */
+    width: 15%;
+    padding: 1rem;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    background: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff ;
+}
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,18 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Hoja de vida</title>
 </head>
 
 <body>
     <div class="menu">
-        <%- include('../templates/nav'); %>
+        <ul>
+            <li><a href="">Inicio</a> </li>
+            <li><a href="#experiencia">Experiencia laboral</a></li>
+            <li><a href="./assets/educacion.html">Educación</a></li>
+            <li><a href="#competencias">Competencias</a></li>
+            <li><a href="#hobbies">Hobbies</a> </li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
     </div>
 
     <h1>JULIANA ANDREA MELO GUERRERO</h1>
     <h2>TÉCNICA EN PROGRAMACIÓN DE SOFTWARE</h2>
-    <img class="eduImg" src="/img/fotoC.jpeg"><br>
+    <img class="eduImg" src="./img/fotoC.jpeg"><br>
 
     <div class="perfil">
         <p>Soy egresada del Colegio Claretiano de Bosa,
@@ -71,6 +78,19 @@
     </div>
     <br><br><br>
     <div class="cards">
+        <div class="card" id="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Cocinar</li>
+                <li>Arte en uñas</li>
+                <li>Leer</li>
+                <li>Viajar </li>
+                <li>Coser</li>
+                <li>Escribir lettering</li>
+                <li>Peinar</li>
+            </ul>
+
+        </div>
         <div class="card" id="competencias">
             <h3>Competencias</h3>
             <ul>
@@ -85,13 +105,14 @@
         </div>
 
     </div><br><br><br>
-    <footer class="footer">
-        <%- include('../templates/footer'); %>
-    </footer>
-    
-    <script src="https://kit.fontawesome.com/6131ecdde6.js"></script>
-    
+    <div class="card4" id="contacto">
+        <h3>INFORMACIÓN DE CONTACTO</h3>
+        <p>Celular: 3044985329<br>
+            Telefono: 601728730 <br>
+            Correo: julianaandrea1414@gmail.com / <br>
+            jamelo827@misena.edu.co <br>
+            Dirección: Carrera 95 #72 - 46 sur</p>
+    </div><br>
 </body>
-
 
 </html>

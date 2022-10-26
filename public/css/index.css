@@ -2,6 +2,7 @@ body{
     background: url(../img/fondoMan.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 img {
@@ -151,54 +152,14 @@ h2{
     text-shadow:  1px 1px rgba(115, 113, 113, 0.418);
 }
 
-
-/*
-.hoja {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+footer{
+    background: url(../img/fondo.png);
+    padding: 0.3rem;
+    color: #fff;
     font-family: 'Lato', sans-serif;
-   
 }
 
-.datos {
-    width: 28%;
-    height: 100%;
-    background-color: rgb(243, 243, 243);
-    padding: 3rem;
-    
+.footer li{
+   list-style: none;
 }
 
-.datos h3{
-    font-weight: bolder;
-    color: rgb(15, 14, 104);
-}
-
-p,li {
-    color: rgb(63, 63, 63);
-    letter-spacing: 0.5x;
-    font-stretch:expanded;
-}
-
-.informacion {
-    height: 100%;
-    width: 60%;
-    flex-wrap: wrap;
-    padding: 2rem;
-    
-}
-
-.informacion h3,h1{
-    font-weight: bolder;
-    color: rgb(15, 14, 104);
-}
-
-.informacion h1{
-    font-size: 3rem;
-}
-
-.titu{
-    background-color: rgba(126, 153, 235, 0.236);
-    padding: 1rem;
-    
-}*/

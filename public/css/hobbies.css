@@ -2,6 +2,7 @@ body{
     background: url(../img/fondoMan.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 img {
@@ -39,16 +40,18 @@ box-shadow: -3px -2px 12px -3px rgba(0,0,0,0.47);
     font-weight:500;
 }
 
-.card{
+.card {
+    margin-bottom: 18rem;
     font-family: 'Lato', sans-serif;
     background-color: #fff;
     border-radius: 7px;
     width: 50%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.7rem;
-    -webkit-box-shadow: -3px -2px 12px -6px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -3px -2px 12px -6px rgb(0 0 0 / 47%);
     -moz-box-shadow: -3px -2px 12px -6px rgba(0,0,0,0.47);
-    box-shadow: -3px -2px 12px -6px rgba(0,0,0,0.47);
+    box-shadow: -3px -2px 12px -6px rgb(0 0 0 / 47%);
     display: flex;
     margin-top: 9rem;
 }
@@ -62,13 +65,12 @@ box-shadow: -3px -2px 12px -3px rgba(0,0,0,0.47);
    
 }
 
-
 h3{
     color: #0f9821;
     font-size: 1.9rem;
 }
 
-li{
+.cont2 li{
     font-size: 1.3rem;
 }
 img {
@@ -97,4 +99,16 @@ h2{
     letter-spacing: 0.5x;
     font-stretch:expanded;
     font-weight: lighter;
+}
+
+
+footer{
+    background: url(../img/fondo.png);
+    padding: 0.3rem;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer li{
+   list-style: none;
 }

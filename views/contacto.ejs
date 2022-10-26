@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,18 +12,12 @@
 </head>
 <body>
     <div class="menu">
-        <ul>
-            <li><a href="/"><i class="fa-solid fa-house"></i> Inicio</a> </li>
-            <li><a href="/Educacion"><i class="fa-solid fa-graduation-cap"></i> Educación</a></li>
-            <li><a href="/Hobbies"> <i class="fa-solid fa-music"></i> Hobbies</a></li>
-            <li><a href="/Contacto"><i class="fa-solid fa-address-book"></i> Contacto</a></li>
-           
-        </ul>
+        <%- include('../templates/nav'); %>
     </div>
    
     <h1>JULIANA ANDREA MELO GUERRERO</h1>
     <h2>TÉCNICA EN PROGRAMACIÓN DE SOFTWARE</h2>
-    <img src="../img/fotoC.jpeg">
+    <img src="/img/fotoC.jpeg">
     <h1 class="titu"><i class="fa-solid fa-address-book"></i>Contacto</h1>
 
     <div class="card">
@@ -41,6 +35,9 @@
       
        
     </div>
+    <footer class="footer">
+        <%- include('../templates/footer'); %>
+    </footer>
  
     <script src="https://kit.fontawesome.com/6131ecdde6.js"></script>
 </body>
