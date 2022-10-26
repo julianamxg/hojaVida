@@ -162,9 +162,10 @@ footer{
 .footer li{
    list-style: none;
 }
+
 @media screen and (min-width: 769px) 
 {
-      .bamburguesa i{
+      .hamburguesa i{
             display: none;
       }
       
@@ -172,11 +173,18 @@ footer{
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
 
+
     .hamburguesa i{
-       
+        margin: 0.8rem;
         color: #fff;
         font-size: 2rem;
   }
+
+  .hamburguesa:hover{
+    cursor: pointer;
+  }
+
+
 
   .menu{
         display: none;
@@ -187,13 +195,46 @@ footer{
   .menu.active
   {
         display: flex;
+        justify-content: flex-start;
         transform: translateY(0%);
   }
 
-  .menu li{
+  .menu ul li{
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     transition: .5s ease;       
 }
 
+h1{
+    font-size: 1.5rem;
+    margin: 0.8rem;
+}
+
+
+h2{
+    font-size: 1rem;
+    margin: 0.8rem;
+}
+
+img {
+    margin: auto ;
+    width: 8rem;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-shadow: -3px -2px 12px -3px rgba(0,0,0,0.47);
+-moz-box-shadow: -3px -2px 12px -3px rgba(0,0,0,0.47);
+box-shadow: -3px -2px 12px -3px rgba(0,0,0,0.47);
+}
+
+.perfil{
+    width: 80%;
+}
+.card2{
+    width: 80%;
+}
+
+.card{
+    width: 70%;
+}
 }

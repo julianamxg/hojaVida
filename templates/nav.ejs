@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/nav.css">
     <title>Nav</title>
 
 </head>
@@ -12,7 +13,7 @@
 <body>
     <nav>
         <div class="hamburguesa">
-            <i class="fa-solid fa-bars icono"></i>
+            <i class="fa-solid fa-bars" id="icono"></i>
         </div>
         <div class="menu">
             <ul>
@@ -29,7 +30,15 @@
         
       
     </nav>
-    <script src="./hambuerguesa.js"></script>
+    <script>
+    
+        'use strick'
+    const menu = document.querySelector('.menu')
+    
+    icono.addEventListener("click", ()=>{
+          menu.classList.toggle("active")
+    })
+    </script>
 </body>
 
 </html>
