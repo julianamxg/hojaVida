@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="menu">
+    <nav>
         <%- include('../templates/nav'); %>
     </div>
 
@@ -90,8 +90,17 @@
     </footer>
     
     <script src="https://kit.fontawesome.com/6131ecdde6.js"></script>
+    <script src="/public/js/hambuerguesa.js"></script>
     
 </body>
+<script>
+    
+    'use strick'
+const menu = document.querySelector('.menu')
 
+icono.addEventListener("click", ()=>{
+      menu.classList.toggle("active")
+})
+</script>
 
 </html>

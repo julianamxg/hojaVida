@@ -75,12 +75,15 @@ label{
 }
 
 input {
+    border-bottom-color: #0f9821;
     font-family: 'Lato', sans-serif;
     margin-top: 0.5rem;
     height: 9px;
     padding: 1rem;
     border-radius: 5px;
-    border: none;
+     border-top: none;
+     border-left: none;
+     border-right: none;
     box-shadow: 1px -2px 6px -6px rgb(0 0 0 / 47%);
 }
 
@@ -89,7 +92,10 @@ textarea{
     margin-top: 0.5rem;
     padding: 1rem;
     border-radius: 5px;
-   border: none;
+    border-bottom-color: #0f9821;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     box-shadow: 1px -2px 6px -6px rgb(0 0 0 / 47%);
     background-color: #edfaed6b;
 }
@@ -100,7 +106,9 @@ textarea{
     padding: 1rem;
     border: none;
     font-family: 'Lato', sans-serif;
-    background-color: #0f9821;
+    background: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 5px;
     color: #fff;
     font-size: 15px;

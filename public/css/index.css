@@ -162,4 +162,38 @@ footer{
 .footer li{
    list-style: none;
 }
+@media screen and (min-width: 769px) 
+{
+      .bamburguesa i{
+            display: none;
+      }
+      
+}
 
+@media screen and (min-width: 200px) and (max-width: 768px) {
+
+    .hamburguesa i{
+       
+        color: #fff;
+        font-size: 2rem;
+  }
+
+  .menu{
+        display: none;
+        width: 100%;
+        transition: .5s ease;  
+  }
+
+  .menu.active
+  {
+        display: flex;
+        transform: translateY(0%);
+  }
+
+  .menu li{
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease;       
+}
+
+}
