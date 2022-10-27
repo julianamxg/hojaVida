@@ -1,19 +1,11 @@
-
-
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 3002
 app.use(express.static(__dirname + '/public'));
 
 app.set('view engine','ejs')
 app.set('views', __dirname + '/views')
 
-
-/*app.get('/', (req, res) => {
-    res.render('index',{titulo:"pagina home cargada"})
-    res.render('index')
- 
-})*/
 
 app.use('/juliana', require('./router/rutas'));
 

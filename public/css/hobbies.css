@@ -120,6 +120,10 @@ footer{
             display: none;
       }
       
+      .titu{
+        display: none;
+      }
+      
 }
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
@@ -178,14 +182,16 @@ img {
 box-shadow: -3px -2px 12px -3px rgba(0,0,0,0.47);
 }
 
-.perfil{
-    width: 80%;
-}
-.card2{
-    width: 80%;
+
+
+.titu{
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
 }
 
 .card{
     width: 70%;
+    display: block;
 }
 }
